@@ -1,41 +1,70 @@
 body {
     background-image: url("../images/upfeathers.png");
+    width: 100%; 
 }
 
 .main-header {
-
     background-color: #4aaaa5;
     color: whitesmoke;
     border-color: #cccccc;
     font-family: 'Georgia', 'Times', Times New Roman, serif;
-    font-style: bold; 
     font-size: 24px;
     padding: 25px;
+    margin-left: -20px;
     float: left; 
-    margin-bottom: 35px;
-    margin-left: 24%;
+}
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 2.5px;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: whitesmoke;
 }
 
 .wrapper {
-    height: 74px;
-    border-bottom-style: solid;
-    border-bottom-color: #cccccc;
-    border-bottom-width: 2px;
-    background-color: #ffffff;
-    width: 100%;
+    height: 74px;    
+    width: 960px;
     clear: both;
+    margin: auto; 
 }
 
 .nav {
     float: right;
-    padding: 25px;
     font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    color: #777777;
-    margin-right: 23%
-
+    color: #cccccc;
+    margin-right: -20px;
+    padding: 25px 0px 25px 0px;
+    font-size: 18px;
 }
 
-img{
+.about-button{
+    padding: 0px 20px 0px 0px;
+    text-decoration: none;
+    border-right-color: #cccccc;
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+.port-button{
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    border-right-color: #cccccc;
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+.contact-button{
+    padding: 0px 0px 0px 20px;
+    text-decoration: none;
+}
+
+#headShot {
     width: 200px;
     height: 150px;
     margin-right: 15px; 
@@ -47,34 +76,39 @@ p {
     line-height: 2; 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    padding: 10px 0px 10px 0px; 
 }
 
-#aboutMe {
+.portfolio-images{
+    width: 275px;
+    height: 200px; 
+}
+
+.content-header {
     color: #4aaaa5;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Georgia', 'Times', Times New Roman, serif;
-    font-style: bold;
     font-size: 24px;
     border-bottom-style: solid;
     border-bottom-color: #dddddd;
-    border-bottom-width: 3px; 
-    padding: 15px 0px 30px 9px;
+    border-bottom-width: 2.5px; 
     clear: both;
     width: 960px;
+    padding-bottom: 30px; 
 }
 
-#mainContent{
+.main-content {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 25px;
     background-color: #ffffff;
     border-style: solid;
     border-color: #dddddd;
     border-width: 1px;
-    padding: 20px;
-    margin-top: 35px; 
     clear: both; 
+    padding: 30px 20px 30px 20px;
 }
 
 .footer{
