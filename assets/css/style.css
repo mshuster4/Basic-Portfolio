@@ -78,8 +78,17 @@ p {
     padding: 10px 0px 10px 0px; 
 }
 
+.column{
+    float: left;
+    width: 33.33%; 
+}
+
+.row{
+    padding-top: 20px
+}
+
 .port-gallery{
-    margin: 5px;
+    margin: 15px 0px 0px 0px;
     float: left;
     position: relative; 
 }
