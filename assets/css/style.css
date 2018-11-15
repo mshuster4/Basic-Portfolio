@@ -110,6 +110,15 @@ p {
     height: 200px; 
 }
 
+input[type=text] {
+    width: 100%;
+    padding-top: 25px;
+}
+
+input[type=submit]:hover {
+    background-color: green; 
+}
+
 .content-header {
     color: #4aaaa5;
     margin-left: auto;
