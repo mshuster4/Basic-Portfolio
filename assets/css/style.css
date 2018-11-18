@@ -7,7 +7,8 @@ body {
     background-color: #4aaaa5;
     color: whitesmoke;
     border-color: #cccccc;
-    font-family: 'Georgia', 'Times', Times New Roman, serif;
+    font-family: 'Georgia', 'Times', "Times New Roman" , serif;
+    font-weight: bold;
     font-size: 24px;
     padding: 25px;
     margin-left: -20px;
@@ -99,7 +100,7 @@ p {
     height: 10px;
     color: whitesmoke;
     background-color: #4aaaa5;
-    font-family: 'Georgia', 'Times', 'Times New Roman', Times, serif;
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
     font-size: 12px;
     padding: 10px;
     text-align: center; 
@@ -110,6 +111,16 @@ p {
 .port-images{
     width: 175px;
     height: 100px; 
+}
+
+.port-images:hover {
+    outline: 4px solid #4aaaa5;
+    outline-offset: 0px;
+}
+
+.port-images:focus {
+    outline: 4px solid #777777;
+    outline-offset: 0px;
 }
 
 input[type=text] {
@@ -189,4 +200,8 @@ form {
     border-color: #4aaaa5;
     border-top-style: solid;
     border-top-width: 7px;
+}
+
+a:visited {
+    color: #777777;
 }
